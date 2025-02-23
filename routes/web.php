@@ -17,3 +17,5 @@ Route::get('/test', function() {
     return view('test');
 });
 
+Route::resource('category', 'App\Http\Controllers\CategoryController');
+
